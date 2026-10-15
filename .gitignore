@@ -1,0 +1,71 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Agent Harness Runtime
+# .harness/tasks/   — task files, local, ignored
+# .harness/reports/ — team reports, local experiment output, ignored
+# .harness/runs/    — per-run logs/evidence, local experiment output, ignored
+# .harness/sessions/ — session ids, local + persistent, ignored
+# .harness/timeline.md — append-only run log, local/experimental, ignored
+# Folders themselves stay tracked via .gitkeep below.
+.harness/tasks/*
+.harness/reports/*
+.harness/runs/*
+.harness/sessions/*
+.harness/timeline.md
+!.harness/tasks/.gitkeep
+!.harness/reports/.gitkeep
+!.harness/runs/.gitkeep
+!.harness/sessions/.gitkeep
+
+# Temp / Çalışmalar
+*.tmp
+temp/
+tmp/
+scratch/
+.cache/
+
+# Node (frontend gerekirse)
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+build/
+
+# Test
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# VS Code / Rider
+.vscode/
+.idea/
+*.code-workspace

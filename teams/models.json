@@ -1,0 +1,68 @@
+{
+    "claude":  {
+                   "manager":  {
+                                   "model":  "opus",
+                                   "effort":  "low",
+                                   "resume":  true
+                               },
+                   "developer":  {
+                                     "model":  "sonnet",
+                                     "effort":  "low",
+                                     "resume":  true
+                                 },
+                   "reviewer":  {
+                                    "model":  "haiku",
+                                    "effort":  "low",
+                                    "resume":  false
+                                },
+                   "tester":  {
+                                  "model":  "haiku",
+                                  "effort":  "low",
+                                  "resume":  true
+                              }
+               },
+    "codex":  {
+                  "manager":  {
+                                  "model":  "gpt-6-luna",
+                                  "effort":  "low",
+                                  "resume":  true
+                              },
+                  "developer":  {
+                                    "model":  "gpt-6-luna",
+                                    "effort":  "low",
+                                    "resume":  true
+                                },
+                  "reviewer":  {
+                                   "model":  "gpt-6-luna",
+                                   "effort":  "low",
+                                   "resume":  false
+                               },
+                  "tester":  {
+                                 "model":  "gpt-6-luna",
+                                 "effort":  "low",
+                                 "resume":  true
+                             }
+              },
+    "cursor":  {
+                   "manager":  {
+                                   "model":  "claude-haiku-5-5-low",
+                                   "effort":  "low",
+                                   "resume":  true
+                               },
+                   "developer":  {
+                                     "model":  "claude-haiku-5-5-low",
+                                     "effort":  "low",
+                                     "resume":  true
+                                 },
+                   "reviewer":  {
+                                    "model":  "claude-haiku-5-5-low",
+                                    "effort":  "low",
+                                    "resume":  false
+                                },
+                   "tester":  {
+                                  "model":  "claude-haiku-5-5-low",
+                                  "effort":  "low",
+                                  "resume":  true
+                              }
+               }
+}
